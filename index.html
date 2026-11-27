@@ -1,72 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="https://raw.githubusercontent.com/2btb-git/2btb-git.github.io/refs/heads/main/logo_64x.png" type="image/x-icon">
   <title>2BTB GWeb</title>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      align-items: flex-start;
+      font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+      color: #222;
+    }
+    #sidebar {
+      flex: 0 0 12rem;
+      width: 12rem;
+      padding: 1.2rem .8rem;
+      border-right: 1px solid #ccc;
+      font-size: .95rem;
+      box-sizing: border-box;
+    }
+    #sidebar ul { list-style: none; margin: 0; padding-left: 0; }
+    #sidebar li ul { padding-left: 1.1rem; }
+    #sidebar li { margin: .3rem 0; }
+    #sidebar a { color: #0a58ca; text-decoration: none; }
+    #sidebar a:hover { text-decoration: underline; }
+    #sidebar .folder { color: #444; font-weight: 600; cursor: default; }
+    main {
+      flex: 1 1 auto;
+      min-width: 0;
+      max-width: 52rem;
+      padding: 1.2rem 2rem 3rem;
+    }
+    main > :first-child { margin-top: 0; }
+  </style>
 </head>
 <body>
 
+<aside id="sidebar">
+  <nav id="nav-tree">加载中…</nav>
+</aside>
 
-<!--
-  <h1>2BTB minecraft server Github WebSite (2BTB_GWeb)</h1>
-  <p>Waiting for admins' editing...</p>
-  <br><br><br>
-  <hr>
-  <strong><em>Contect us: admin@2btb.top | QQ group: 967715628</em></strong>
--->
-
-
+<main>
   <h1>你好！</h1>
-<p>欢迎来到我们2btb MC服务器的Github wiki网站！<br>
-希望这个网站对您有用！</p>
+  <p>欢迎来到我们2btb MC服务器的Github wiki网站！<br>
+  希望这个网站对您有用！</p>
+  
+  <h1>服务器介绍</h1>
+  <p>我们的服务器拥有一下这些链接：</p>
+  <ul>
+    <li>mc.2btb.top；</li>
+    <li>mc2.2btb.top；</li>
+    <li>mc3.2btb.top；</li>
+    <li><a href="https://www.2btb.top">https://www.2btb.top</a>；</li>
+    <li><a href="https://gh.2btb.top">https://gh.2btb.top</a>。</li>
+  </ul>
+  
+  <p>我们的唯一QQ群：<code>967715628</code><br>
+  我们的邮箱：<code>admin@2btb.top</code></p>
+  
+  <blockquote class="is-danger">
+    <p>这里是 <a href="https://www.2btb.top">2btb (to be the best)</a>，而不是 <a href="https://2b2t.org">2b2t (2builders2tools)</a>！</p>
+  </blockquote>
+  
+  <blockquote class="is-info">
+    <p>要加入本服，必须要进入QQ群。</p>
+  </blockquote>
+  
+  <h2>mc.2btb.top</h2>
+  <p>这是我们的Minecraft服务器的地址。<br>
+  你应在“服务器地址”中填入：</p>
+  
+  <blockquote class="is-info">
+    <p>mc.2btb.top&ensp;&ensp;、&ensp;&ensp;mc2.3btb.top&ensp;&ensp;或&ensp;&ensp;mc2.3btb.top</p>
+  </blockquote>
+  
+  <blockquote>
+    <p>我们的服务器开启了白名单模式，所以如果您刚刚加入我们，需要告诉Q群管理员您的游戏昵称，让管理员把你的昵称加入到白名单。</p>
+  </blockquote>
+  
+  <blockquote>
+    <p>服务器开启了 <strong>正版验证</strong>、<a href="https://littleskin.cn/"><strong>皮肤站</strong></a> 验证。请您在启动游戏时选择 <strong>正版</strong> 或 <strong>皮肤站</strong> 登录！离线玩家无法进入服务器</p>
+  </blockquote>
+  
+  <blockquote>
+    <p>如果您考虑要迁移您的玩家数据至另一个玩家（未被占用的）中，您或许应该自己解决。<del><em>但是如果您想要完全迁移可以找我（服主），但是我不一定有时间！</em></del></p>
+  </blockquote>
+  
+  <h2>https://www.2btb.top</h2>
+  <p>这是我们服务器的网站，也就是这个wiki。由<a href="https://js.wiki/">Wiki.js</a>提供支持，也由<a href="https://www.openfrp.net/">OpenFrp</a>提供支持 <del><em>（我没有国际公网ip服务器）</em></del> 。</p>
+  
+  <h2>https://gh.2btb.top</h2>
+  <p>这个网站是我们的副网站，因为主网站经常因为不知名原因宕机/掉线，所以这个网站就诞生了。<br>
+  Github万岁！</p>
+  
+  <h2>admin@2btb.top</h2>
+  <p>这是我们的邮箱，可以正常发送接受邮件。但是管理员测试发现，无论是你发给我，还是我发给你，基本都会被送进垃圾邮件箱，甚至可能在邮件的终点接受失败。<del><em>为啥没有关掉垃圾邮件箱功能？！</em></del></p>
+</main>
 
-<h1>服务器介绍</h1>
-<p>我们的服务器拥有一下这些链接：</p>
-<ul>
-  <li>mc.2btb.top；</li>
-  <li>mc2.2btb.top；</li>
-  <li>mc3.2btb.top；</li>
-  <li><a href="https://www.2btb.top">https://www.2btb.top</a>；</li>
-  <li><a href="https://gh.2btb.top">https://gh.2btb.top</a>。</li
-</ul>
+<script>
+(async () => {
+  const nav = document.getElementById('nav-tree');
+  const data = await fetch('./contents.json').then(r => r.json()).catch(() => null);
+  if (!Array.isArray(data)) {
+    nav.textContent = '目录加载失败';
+    return;
+  }
+  const owner = item => data
+    .filter(f => f.type === 'folder' && f !== item && item.url.startsWith(f.url))
+    .sort((a, b) => b.url.length - a.url.length)[0];
+  const childrenOf = folder => data.filter(i => i !== folder && i.url.startsWith(folder.url) && owner(i) === folder);
 
-<p>我们的唯一QQ群：<code>967715628</code><br>
-我们的邮箱：<code>admin@2btb.top</code></p>
+  const render = (list, depth) => {
+    const ul = document.createElement('ul');
+    for (const item of list) {
+      const li = document.createElement('li');
+      if (item.type === 'web') {
+        const a = document.createElement('a');
+        a.href = item.url;
+        a.textContent = item.title;
+        li.appendChild(a);
+      } else {
+        const span = document.createElement('span');
+        span.className = 'folder';
+        span.textContent = item.title;
+        li.appendChild(span);
+        li.appendChild(render(childrenOf(item), depth + 1));
+      }
+      ul.appendChild(li);
+    }
+    return ul;
+  };
 
-<blockquote class="is-danger">
-  <p>这里是 <a href="https://www.2btb.top">2btb (to be the best)</a>，而不是 <a href="https://2b2t.org">2b2t (2builders2tools)</a>！</p>
-</blockquote>
-
-<blockquote class="is-info">
-  <p>要加入本服，必须要进入QQ群。</p>
-</blockquote>
-
-<h2>mc.2btb.top</h2>
-<p>这是我们的Minecraft服务器的地址。<br>
-你应在“服务器地址”中填入：</p>
-
-<blockquote class="is-info">
-  <p>mc.2btb.top&ensp;&ensp;、&ensp;&ensp;mc2.3btb.top&ensp;&ensp;或&ensp;&ensp;mc2.3btb.top</p>
-</blockquote>
-
-<blockquote>
-  <p>我们的服务器开启了白名单模式，所以如果您刚刚加入我们，需要告诉Q群管理员您的游戏昵称，让管理员把你的昵称加入到白名单。</p>
-</blockquote>
-
-<blockquote>
-  <p>服务器开启了 <strong>正版验证</strong>、<a href="https://littleskin.cn/"><strong>皮肤站</strong></a> 验证。请您在启动游戏时选择 <strong>正版</strong> 或 <strong>皮肤站</strong> 登录！离线玩家无法进入服务器</p>
-</blockquote>
-
-<blockquote>
-  <p>如果您考虑要迁移您的玩家数据至另一个玩家（未被占用的）中，您或许应该自己解决。<del><em>但是如果您想要完全迁移可以找我（服主），但是我不一定有时间！</em></del></p>
-</blockquote>
-
-<h2>https://www.2btb.top</h2>
-<p>这是我们服务器的网站，也就是这个wiki。由<a href="https://js.wiki/">Wiki.js</a>提供支持，也由<a href="https://www.openfrp.net/">OpenFrp</a>提供支持 <del><em>（我没有国际公网ip服务器）</em></del> 。</p>
-
-<h2>https://gh.2btb.top</h2>
-<p>这个网站是我们的副网站，因为主网站经常因为不知名原因宕机/掉线，所以这个网站就诞生了。<br>
-Github万岁！</p>
-
-<h2>admin@2btb.top</h2>
-<p>这是我们的邮箱，可以正常发送接受邮件。但是管理员测试发现，无论是你发给我，还是我发给你，基本都会被送进垃圾邮件箱，甚至可能在邮件的终点接受失败。<del><em>为啥没有关掉垃圾邮件箱功能？！</em></del></p>
+  nav.textContent = '';
+  nav.appendChild(render(data.filter(i => !owner(i)), 0));
+})();
+</script>
 </body>
+</html>

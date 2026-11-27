@@ -1,0 +1,17 @@
+[
+  {
+    "title": "🏠 主页",
+    "type": "web",
+    "url": "/index.html"
+  },
+  {
+    "title": "mc_server",
+    "type": "folder",
+    "url": "./mc_server/"
+  },
+  {
+    "title": "轨道交通线路",
+    "type": "web",
+    "url": "./mc_server/rail_way.html"
+  }
+]
