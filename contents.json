@@ -20,6 +20,11 @@
     "url": "/talking_rules.html"
   },
   {
+    "title": "服务器日志",
+    "type": "web",
+    "url": "/srv-logs.html"
+  },
+  {
     "title": "📁 mc_server",
     "type": "folder",
     "url": "/mc_server/"
