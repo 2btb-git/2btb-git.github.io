@@ -5,6 +5,11 @@
     "url": "/index.html"
   },
   {
+    "title": "在游玩服务器中的规定",
+    "type": "web",
+    "url": "/game_rules.html"
+  },
+  {
     "title": "📁 mc_server",
     "type": "folder",
     "url": "./mc_server/"
