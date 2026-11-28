@@ -5,6 +5,11 @@
     "url": "/index.html"
   },
   {
+    "title": "公告",
+    "type": "web",
+    "url": "/GongGao.html"
+  },
+  {
     "title": "在游玩服务器中的规定",
     "type": "web",
     "url": "/game_rules.html"
@@ -23,5 +28,10 @@
     "title": "轨道交通线路",
     "type": "web",
     "url": "/mc_server/rail_way.html"
+  },
+  {
+    "title": "⚠️ 这个导航栏只会在主页出现",
+    "type": "tips",
+    "url": "/棍母/404.lmth"
   }
 ]

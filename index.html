@@ -33,6 +33,7 @@
     #sidebar a { color: #2A7D94; text-decoration: none; }
     #sidebar a:hover { text-decoration: underline; }
     #sidebar .folder { color: #514F4F; font-weight: 600; cursor: default; }
+    #sidebar .tips { color: #808080; font-weight: 600; cursor: default; }
     main {
       flex: 1 1 auto;
       min-width: 0;
@@ -127,9 +128,15 @@
         a.href = item.url;
         a.textContent = item.title;
         li.appendChild(a);
-      } else {
+      } else if (item.type === 'folder') {
         const span = document.createElement('span');
         span.className = 'folder';
+        span.textContent = item.title;
+        li.appendChild(span);
+        li.appendChild(render(childrenOf(item), depth + 1));
+      } else {
+        const span = document.createElement('span');
+        span.className = 'tips';
         span.textContent = item.title;
         li.appendChild(span);
         li.appendChild(render(childrenOf(item), depth + 1));
