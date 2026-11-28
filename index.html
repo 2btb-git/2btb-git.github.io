@@ -45,7 +45,7 @@
 <body>
 
 <aside id="sidebar">
-  <nav id="nav-tree">加载中…</nav>
+  <nav id="nav-tree">Loading Contents…</nav>
 </aside>
 
 <main>
@@ -110,7 +110,7 @@
   const nav = document.getElementById('nav-tree');
   const data = await fetch('./contents.json').then(r => r.json()).catch(() => null);
   if (!Array.isArray(data)) {
-    nav.textContent = '目录加载失败';
+    nav.textContent = 'Failed to load Contents !';
     return;
   }
   const owner = item => data
